@@ -1,4 +1,4 @@
-# MVP Plan — `MVP.md`
+﻿# MVP Plan — `MVP.md`
 
 ## 1 — Elevator summary
 
@@ -101,12 +101,25 @@ SimpleGov is a U.S.-focused civic-information mobile app (Expo / React Native) t
 
 * Mono-repo / multi-package structure (recommended):
 
-  * `/apps/expo-app` (Expo app)
-  * `/packages/ui` (shared UI components)
-  * `/packages/lib` (supabase client, api helpers, types)
-  * `/infra` (supabase edge function code, scripts)
+  * /apps/expo-app (Expo app)
+  * /packages/ui (shared UI components)
+  * /packages/lib (supabase client, api helpers, types)
+  * /infra (supabase edge function code, scripts)
 * Typescript everywhere (frontend + edge functions).
 * Linting: ESLint + Prettier.
 * Basic unit tests for Edge functions and critical helpers (Jest).
 
+## 15 — Repo bootstrap status
+
+* Repo skeleton in place with Expo app, shared UI kit, shared lib, and infra directories matching the recommended mono-repo layout.
+* Top-level structure (first pass):
+* Environment setup guide lives at `docs/setup/environment.md`.
+      /
+      |- apps/expo-app
+      |- packages/lib
+      |- packages/ui
+      |- infra/edge-functions/ingest-federal-register
+      `- docs
+
 ---
+
