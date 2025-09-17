@@ -77,8 +77,8 @@
 - **Rate Limiting**: Implement token bucket per source; leverage Supabase KV store (or Postgres advisory locks) to coordinate concurrent runs.
 - **Testing**: Write contract tests invoking functions locally via `supabase functions serve` and unit tests using Deno test runner with mocked clients.
 
-## TODO
-- Prototype `process-document` with streaming summarization to evaluate latency improvements.
-- Decide whether categorization should be merged into `process-document` or remain standalone for cost control.
-- Implement dead-letter queue table for repeated ingestion failures and alert via Slack webhook.
-- Benchmark search-proxy latency under concurrent load and adjust pooling configuration if needed.
+## Follow-Up Tracking
+- [SG-013](planning/backlog.md#sg-013-prototype-streaming-summarization-workflow) – Prototype `process-document` with streaming summarization to evaluate latency improvements.
+- [SG-014](planning/backlog.md#sg-014-decide-taxonomy-processing-split) – Decide whether categorization should be merged into `process-document` or remain standalone for cost control.
+- [SG-015](planning/backlog.md#sg-015-implement-ingestion-dead-letter-queue-with-alerts) – Implement a dead-letter queue table for repeated ingestion failures and alert via Slack webhook.
+- [SG-016](planning/backlog.md#sg-016-benchmark-search-proxy-concurrency) – Benchmark search-proxy latency under concurrent load and adjust pooling configuration if needed.

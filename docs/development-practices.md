@@ -50,8 +50,8 @@
 - Log Edge Function invocations with correlation IDs; surface health metrics in dashboard (Grafana or Supabase logs).
 - Define QA checklist per feature (accessibility, localization, performance) before merging major PRs.
 
-## TODO
-- Write CONTRIBUTING guide including environment bootstrap script and design review process.
-- Set up automated Expo preview comments on pull requests.
-- Establish rotation for code reviews and release managers.
-- Add contract tests for search-proxy once API schema finalized.
+## Follow-Up Tracking
+- [SG-025](planning/backlog.md#sg-025-write-contributing-guide-and-onboarding-script) – Write a CONTRIBUTING guide including environment bootstrap script and design review process.
+- [SG-026](planning/backlog.md#sg-026-automate-expo-preview-comments-on-prs) – Set up automated Expo preview comments on pull requests.
+- [SG-027](planning/backlog.md#sg-027-establish-review-and-release-rotations) – Establish rotation for code reviews and release managers.
+- [SG-028](planning/backlog.md#sg-028-add-search-proxy-contract-tests) – Add contract tests for search-proxy once the API schema is finalized.
