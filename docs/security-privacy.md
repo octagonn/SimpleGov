@@ -53,8 +53,8 @@
 - Automate anomaly detection (failed ingestion spikes, unauthorized access attempts) with alerts to Slack/Email.
 - Run quarterly tabletop exercises to test incident playbooks (breach, API abuse, AI hallucination report).
 
-## TODO
-- Implement encrypted audit trail for admin overrides leveraging pgcrypto.
-- Evaluate Supabase Vault for managing particularly sensitive columns if future features require PII expansion.
-- Write formal privacy policy and terms of service drafts to accompany MVP beta.
-- Integrate automated security scanning (npm audit, Snyk) into CI pipeline with alert thresholds.
+## Follow-Up Tracking
+- [SG-021](planning/backlog.md#sg-021-implement-encrypted-admin-audit-trail) – Implement an encrypted audit trail for admin overrides leveraging pgcrypto.
+- [SG-022](planning/backlog.md#sg-022-evaluate-supabase-vault-adoption) – Evaluate Supabase Vault for managing sensitive columns as PII scope grows.
+- [SG-023](planning/backlog.md#sg-023-draft-privacy-policy-and-terms-of-service) – Write formal privacy policy and terms of service drafts to accompany the MVP beta.
+- [SG-024](planning/backlog.md#sg-024-integrate-automated-security-scanning-into-ci) – Integrate automated security scanning into the CI pipeline with alert thresholds.

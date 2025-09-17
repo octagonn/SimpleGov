@@ -76,8 +76,8 @@ users ---< user_actions >--- documents ---< approval_votes >--- officials
 - Refresh materialized views during off-peak cron windows.
 - Monitor pgvector index sizes; rebuild when embeddings distribution shifts.
 
-## TODO
-- Finalize enum definitions (action_type, status, visibility, age_bucket) and align with TypeScript types.
-- Decide if `documents.raw_text` should move to storage for large payloads once size exceeds free-tier comfort.
-- Evaluate need for `document_topics` bridge table if categories require relational modeling.
-- Add audit triggers (Supabase Vault or custom) if compliance logging becomes mandatory.
+## Follow-Up Tracking
+- [SG-005](planning/backlog.md#sg-005-finalize-supabase-enum-definitions) – Finalize enum definitions and align them with TypeScript types.
+- [SG-006](planning/backlog.md#sg-006-decide-on-raw-text-storage-strategy) – Decide if `documents.raw_text` should move to Supabase Storage when payloads grow.
+- [SG-007](planning/backlog.md#sg-007-assess-need-for-document-topic-bridge-table) – Evaluate whether a `document_topics` bridge table is required for relational taxonomy modeling.
+- [SG-008](planning/backlog.md#sg-008-implement-compliance-audit-triggers) – Add audit triggers when compliance logging becomes mandatory.

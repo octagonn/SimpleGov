@@ -64,8 +64,8 @@
 - ProfileHeader (avatar, name, role, action buttons) reused across Officials and Account.
 - Theme-aware IconButton and FloatingAction modules for consistent controls.
 
-## TODO
-- Produce high-fidelity Figma frames illustrating hero carousel, ticker rail, and approval meter interactions.
-- Validate color choices with contrast tooling and gather feedback from accessibility reviewers.
-- Define motion token naming (duration, easing) shared between Expo screens and Lottie animations.
-- Explore microcopy guidelines to keep tone informative yet neutral.
+## Follow-Up Tracking
+- [SG-009](planning/backlog.md#sg-009-produce-high-fidelity-hero-and-ticker-mockups) – Produce high-fidelity Figma frames covering hero carousel, ticker rail, and approval meter interactions.
+- [SG-010](planning/backlog.md#sg-010-validate-theme-colors-for-accessibility) – Validate color choices with contrast tooling and gather accessibility reviewer feedback.
+- [SG-011](planning/backlog.md#sg-011-define-shared-motion-token-naming) – Define shared motion token naming across Expo screens and animations.
+- [SG-012](planning/backlog.md#sg-012-draft-microcopy-guidelines) – Explore and document microcopy guidelines to keep tone informative yet neutral.

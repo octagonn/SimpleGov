@@ -62,8 +62,8 @@
 - Centralize logging and metrics via Supabase log drains (for example, Logflare) and set budget alarms for OpenAI or Gemini usage.
 - Default to Supabase free-tier limits: minimize storage of raw source payloads, prune historical logs, and batch writes where possible.
 
-## TODO
-- Decide on eventing mechanism for chaining ingestion to processing (database trigger versus explicit job queue).
-- Confirm Edge Function runtime budget for AI provider calls; evaluate need for external worker for long-running summarization.
-- Produce OpenAPI specs for public RPC endpoints and generate TypeScript clients.
-- Align on observability stack (Sentry versus native Supabase logs) for both client and Edge Functions.
+## Follow-Up Tracking
+- [SG-001](planning/backlog.md#sg-001-select-ingestion-event-orchestration-path) – Decide on eventing mechanism for chaining ingestion to processing.
+- [SG-002](planning/backlog.md#sg-002-validate-edge-function-runtime-budgets) – Confirm Edge Function runtime budget for AI provider calls and evaluate need for external worker support for long-running summarization.
+- [SG-003](planning/backlog.md#sg-003-publish-openapi-specs-for-rpc-endpoints) – Produce OpenAPI specs for public RPC endpoints and generate TypeScript clients.
+- [SG-004](planning/backlog.md#sg-004-select-observability-stack-for-clients-and-functions) – Align on observability stack for the mobile client and Edge Functions.

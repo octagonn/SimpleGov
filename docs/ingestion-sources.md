@@ -58,8 +58,8 @@
 - Flag documents with missing critical fields (title, publication date) for manual review queue.
 - Track upstream coverage gaps and plan weekly report of ingestion health.
 
-## TODO
-- Design `ingestion_sources` table schema (id, name, cursor, status, config jsonb).
-- Prototype checksum-based dedupe to avoid unnecessary summarization costs.
-- Establish shared sanitizer for HTML to text conversion (e.g., unified + rehype stack in edge-safe bundle).
-- Draft escalation policy for scraping sources that may change markup unexpectedly.
+## Follow-Up Tracking
+- [SG-017](planning/backlog.md#sg-017-design-ingestion_sources-table-schema) – Design the `ingestion_sources` table schema with identifiers, cursors, run status, and configuration JSON.
+- [SG-018](planning/backlog.md#sg-018-prototype-checksum-based-dedupe) – Prototype checksum-based dedupe to avoid unnecessary summarization costs.
+- [SG-019](planning/backlog.md#sg-019-establish-shared-html-sanitizer) – Establish a shared sanitizer for HTML-to-text conversion compatible with Edge Functions.
+- [SG-020](planning/backlog.md#sg-020-draft-scraping-escalation-policy) – Draft an escalation policy for scraping sources that may change markup unexpectedly.
